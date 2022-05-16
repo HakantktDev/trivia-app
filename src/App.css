@@ -1,0 +1,168 @@
+select {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 4px;
+	width: -webkit-fill-available;
+	cursor: pointer;
+}
+h2 {
+	text-align: center;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.image-icon {
+	width: 80px;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+.mt-30 {
+	margin-top: 30px;
+}
+.mb-50 {
+	margin-bottom: 50px;
+}
+.default-button {
+	background-color: #004c7d;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 20px;
+	display: flex;
+}
+.joker-button {
+	background-color: rgb(5, 151, 17);
+}
+.joker-button:disabled {
+	background-color: gray;
+	cursor: unset;
+}
+.new-alert {
+	color: red;
+	font-weight: bold;
+}
+.new-alert-two {
+	color: green;
+	font-weight: bold;
+}
+
+.App-logo {
+	height: 15vmin;
+	pointer-events: none;
+}
+.row {
+	display: flex;
+}
+.content-row {
+	display: contents;
+}
+.full-container {
+	width: 100%;
+}
+.centered-column {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.centered-column > img {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin-top: 30px;
+}
+.centered-column > h4,
+p {
+	text-align: center;
+}
+.f-bold {
+	font-weight: bold;
+}
+.w-100 {
+	width: 100%;
+}
+.w-60 {
+	width: 60%;
+}
+.options {
+	background-color: #004c7d;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.questions-header {
+	background-color: #004c7d;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-information {
+	padding-left: 40px;
+	padding-right: 40px;
+	color: white;
+}
+.mb-0 {
+	margin-bottom: 0px;
+}
+.mt-0 {
+	margin-top: 0px;
+}
+.mt-200 {
+	margin-top: 200px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
